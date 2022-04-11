@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginVertical="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        android:textSize="35sp"
+        android:layout_gravity="center"/>
+    <EditText
+        android:layout_marginHorizontal="15sp"
+        android:layout_marginVertical="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Product price"
+        android:inputType="number"
+        android:id="@+id/forCheckPrice"/>
+    <Button
+        android:layout_marginHorizontal="15sp"
+        android:layout_marginVertical="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Check NOW"
+        android:id="@+id/check"/>
+    <TextView
+        android:layout_marginVertical="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/amount"
+        android:textSize="20sp"
+        android:layout_gravity="center"/>
+</LinearLayout>
